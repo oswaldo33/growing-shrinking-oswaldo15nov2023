@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1</title>
+    <style>
+        .nav-list{
+            display: flex;
+            flex-direction: column;
+            
+            height: none;
+            gap: 1rem;
+
+            margin: 0;
+            padding: 0;
+            list-style: none;
+
+            border: 5px solid lightcoral;
+           /* justify-content: space-between; */
+        }
+
+        .nav-list li{
+        /*    flex-grow: 1;
+            flex-shrink: 1;  */
+            border: 3px solid lightgreen;
+        }
+
+        h1{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Flexbox made simple</h1>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Service information goes here</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
